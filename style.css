@@ -2,17 +2,16 @@ header, section, footer, nav, article {
     display: block;
 }
 body {
+    position:absolute;
+    left: 30%;
     max-width: 35.5%;
     margin: auto;
     margin-top: 0.7%;
     padding-right: 0.5%;
     border: 3px solid #000000;
 }
-#top {
-    max-width: 70%;
-}
-#bot {
-    padding-top: 10px;
+.wrap {
+    max-width: 65%;
 }
 nav {
     margin: 2%;
@@ -44,8 +43,8 @@ h2, p {
 }
 #pic {
     border: black 2px solid;
-    width: 9.75%;
     position: absolute;
-    left: 58.1%;
-    top: 1.8%;
+    width: 30%;
+    left: 69.5%;
+    top: -0.5%;
 }
